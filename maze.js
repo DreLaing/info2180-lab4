@@ -41,6 +41,18 @@ window.onload = function(){
 
 		}) 
 
+//exercise 4
+	let start = document.getElementById("start");
+	start.addEventListener("click", () =>{
+
+		document.getElementById("status").innerHTML = "Move your mouse over the \"S\" to begin.";
+			for (let a = 0; a < boundary.length-1;a++) {
+				boundary[a].setAttribute("class","boundary boundary");
+			};
+
+
+	})
+
 
 
 
